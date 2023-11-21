@@ -1,0 +1,64 @@
+/* Reset some default styles */
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  /* Style the navigation bar */
+  nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  nav ul {
+    text-align: center;
+  }
+  
+  nav li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  /* Style the container */
+  .container {
+    text-align: center;
+    padding: 40px;
+  }
+  
+  .container h1 {
+    font-size: 36px;
+    color: #333;
+  }
+  
+  .container p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the buttons */
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
